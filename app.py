@@ -13,7 +13,7 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-@app.route('/getdelay', methods=['POST','GET'])
+@app.route('/getdelay', methods=['POST'])
 def get_delay():
     result=request.form
     int_rate=result['int_rate']
