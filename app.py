@@ -39,4 +39,4 @@ def get_delay():
        return render_template('result2.html')
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run(debug=True)
